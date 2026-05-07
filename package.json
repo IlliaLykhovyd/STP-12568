@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/STP-12568-Royal-Adventure-Match-3-Game/",
+    "build": "vite build --base=/STP-12568/",
     "preview": "vite preview",
     "build:preview": "vite build && vite preview"
   },
