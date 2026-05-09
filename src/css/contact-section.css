@@ -1,0 +1,87 @@
+.contact-wrapper{
+    display: flex;
+    padding: 72px;
+    background: #f1faff;
+}
+
+@media screen and (max-width: 376px) {
+    .contact-wrapper{
+    padding: 0 16px 38px 16px;
+    flex-direction: column;
+    align-items: center;
+}
+}
+
+.contact-connect_wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-title{
+font-weight: 600;
+font-size: 40px;
+text-transform: uppercase;
+color: #000;
+margin-bottom: 24px;
+}
+
+@media screen and (max-width: 376px) {
+.contact-title{
+font-size: 24px;
+}
+}
+
+.contact-paragraph{
+font-weight: 400;
+font-size: 32px;
+text-transform: capitalize;
+text-align: center;
+color: #000;
+margin-bottom: 16px;
+}
+
+@media screen and (max-width: 376px) {
+.contact-paragraph{
+font-size: 24px;
+}
+}
+
+
+.contact-paragraph-email{
+font-weight: 400;
+font-size: 32px;
+text-transform: capitalize;
+text-align: center;
+color: #000;
+}
+
+@media screen and (max-width: 376px) {
+.contact-paragraph-email{
+font-size: 20px;
+}
+}
+
+
+
+@media screen and (max-width: 376px) {
+.contact-picture-2{
+    display: none;
+}
+
+}
+
+.contact-picture, .contact-picture-2{
+    width: 411px;
+    height: 274px;
+}
+
+@media screen and (max-width: 376px) {
+.contact-picture{
+    width: 137px;
+    height: 92px;
+    margin-bottom: 24px;
+}
+
+}
