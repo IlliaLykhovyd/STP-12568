@@ -1,0 +1,42 @@
+.overview-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 38px 16px;
+}
+.overview-title {
+  font-weight: 600;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #000;
+  margin-bottom: 24px;
+}
+.overview-text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  text-transform: capitalize;
+  text-align: center;
+  color: #000;
+}
+.desktop-br {
+  display: none;
+}
+@media screen and (min-width: 1440px) {
+  .overview-container {
+    padding: 72px 131px;
+  }
+  .overview-title {
+    font-size: 40px;
+    margin-bottom: 38px;
+  }
+  .overview-text {
+    font-size: 24px;
+    line-height: 1.33333;
+  }
+  .desktop-br {
+    display: block;
+  }
+}
