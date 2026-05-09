@@ -1,11 +1,14 @@
-const openBtnEl = document.querySelector('[data-action="open"]');
-const closeBtnEl = document.querySelector('[data-action="close"]');
-const burgerMenuEl = document.querySelector('[data-visible]');
+const menu = document.querySelector('.mobile-menu-overlay');
+const burger = document.querySelector('#openMenuBtn');
+const burgerBtn = document.querySelector('.menu-btn');
+const closeBtn = document.querySelector('#closeMenuBtn');
 
-openBtnEl.addEventListener('click', e => {
-  burgerMenuEl.dataset.visible = 'open';
+burgerBtn.addEventListener('click', () => {
+  menu.classList.add('active');
+  burger.classList.add('hidden');
 });
 
-closeBtnEl.addEventListener('click', e => {
-  burgerMenuEl.dataset.visible = 'close';
+closeBtn.addEventListener('click', () => {
+  menu.classList.remove('active');
+  burger.classList.remove('hidden');
 });
