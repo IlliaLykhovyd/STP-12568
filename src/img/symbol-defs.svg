@@ -1,5 +1,14 @@
 <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
+<symbol id="icon-back-arrow" viewBox="0 0 16 32">
+<path d="M12.731 23.227l-1.415 1.413-7.705-7.703c-0.124-0.123-0.223-0.27-0.29-0.432s-0.102-0.335-0.102-0.51c0-0.175 0.035-0.348 0.102-0.51s0.166-0.308 0.29-0.432l7.705-7.707 1.413 1.413-7.232 7.233 7.233 7.233z"></path>
+</symbol>
+<symbol id="icon-arrow-left" viewBox="0 0 32 32">
+<path d="M22.534 28.273v-24.546l-16.267 12.273 16.267 12.273z"></path>
+</symbol>
+<symbol id="icon-arrow-right" viewBox="0 0 32 32">
+<path d="M9.466 28.273v-24.546l16.267 12.273-16.267 12.273z"></path>
+</symbol>
 <symbol id="icon-grey-star" viewBox="0 0 32 32">
 <path fill="#9d9fa0" style="fill: var(--color1, #9d9fa0)" d="M11.8 22.433l4.2-2.533 4.2 2.567-1.1-4.8 3.7-3.2-4.867-0.433-1.933-4.533-1.933 4.5-4.867 0.433 3.7 3.233-1.1 4.767zM7.767 28l2.167-9.367-7.267-6.3 9.6-0.833 3.733-8.833 3.733 8.833 9.6 0.833-7.267 6.3 2.167 9.367-8.233-4.967-8.233 4.967z"></path>
 </symbol>

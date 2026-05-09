@@ -1,0 +1,127 @@
+html,
+body {
+  overflow-x: hidden;
+}
+.hero-section {
+  background-image: url(/img/mobile/Hero-mobile.png);
+  width: 375px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 521px 10px 10px 9px;
+}
+.hero-title {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 12px;
+}
+.hero-subtitle {
+  font-weight: 500;
+  font-size: 24px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 12px;
+}
+.hero-download-btn {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  box-sizing: border-box;
+  border: 1px solid #fff;
+  border-radius: 6px;
+  padding: 3.5px 16px;
+  width: 158px;
+  height: auto;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  background: #000;
+
+  transition:
+    background-color 0.3s ease,
+    transform 0.2s ease,
+    filter 0.2s ease;
+  cursor: pointer;
+  outline: none;
+}
+.hero-download-btn:hover,
+.hero-download-btn:focus {
+  background-color: #222;
+  filter: brightness(1.1);
+}
+.googleplay-img {
+  width: 20px;
+  height: 24px;
+  margin-right: 16px;
+}
+.download-btn-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.download-text-small {
+  font-weight: 400;
+  font-size: 13px;
+  color: #fff;
+  margin-bottom: 1px;
+}
+.download-text-big {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: -0.5px;
+  color: #fff;
+}
+@media (min-resolution: 192dpi) {
+  .hero-section {
+    background-image: url(/img/mobile/Hero-mobile@2x.png);
+  }
+}
+@media screen and (min-width: 1440px) {
+  .hero-section {
+    background-image: url(/img/desktop/Hero-desktop.png);
+    width: 1440px;
+  }
+  .hero-container {
+    padding: 494px 130px 28px 130px;
+  }
+  .hero-br {
+    display: none;
+  }
+  .hero-title {
+    font-size: 64px;
+    margin-bottom: 16px;
+  }
+  .hero-subtitle {
+    font-size: 36px;
+    margin-bottom: 16px;
+  }
+  .googleplay-img {
+    width: 32px;
+    height: 38px;
+  }
+  .hero-download-btn {
+    width: 220px;
+    height: 60px;
+    padding: 9px 54px 11px 16px;
+  }
+  .download-text-small {
+    margin-bottom: 3.6px;
+  }
+  .download-text-big {
+    font-size: 19px;
+  }
+  @media (min-resolution: 192dpi) {
+    .hero-section {
+      background-image: url(/img/desktop/Hero-desktop@2x.png);
+    }
+  }
+}
