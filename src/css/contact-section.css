@@ -4,7 +4,7 @@
     background: #f1faff;
 }
 
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 426px) {
     .contact-wrapper{
     padding: 0 16px 38px 16px;
     flex-direction: column;
@@ -27,7 +27,7 @@ color: #000;
 margin-bottom: 24px;
 }
 
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 426px) {
 .contact-title{
 font-size: 24px;
 }
@@ -42,7 +42,7 @@ color: #000;
 margin-bottom: 16px;
 }
 
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 426px) {
 .contact-paragraph{
 font-size: 24px;
 }
@@ -57,7 +57,7 @@ text-align: center;
 color: #000;
 }
 
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 426px) {
 .contact-paragraph-email{
 font-size: 20px;
 }
@@ -65,7 +65,7 @@ font-size: 20px;
 
 
 
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 426px) {
 .contact-picture-2{
     display: none;
 }
@@ -77,7 +77,7 @@ font-size: 20px;
     height: 274px;
 }
 
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 426px) {
 .contact-picture{
     width: 137px;
     height: 92px;
