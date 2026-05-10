@@ -5,6 +5,7 @@ body {
 .hero-section {
   background-image: url(/img/mobile/Hero-mobile.png);
   width: 375px;
+  padding-top: 65px;
   margin: 0 auto;
   background-repeat: no-repeat;
   background-position: center;
@@ -53,7 +54,7 @@ body {
 }
 .hero-download-btn:hover,
 .hero-download-btn:focus {
-  background-color: #222;
+  background-color: #fff;
   filter: brightness(1.1);
 }
 .googleplay-img {
@@ -72,6 +73,7 @@ body {
   font-size: 13px;
   color: #fff;
   margin-bottom: 1px;
+  transition: color 0.3s ease;
 }
 .download-text-big {
   font-size: 15px;
@@ -79,7 +81,15 @@ body {
   line-height: 1.2;
   letter-spacing: -0.5px;
   color: #fff;
+  transition: color 0.3s ease;
 }
+.hero-download-btn:hover .download-text-small,
+.hero-download-btn:hover .download-text-big,
+.hero-download-btn:focus .download-text-small,
+.hero-download-btn:focus .download-text-big {
+  color: #000;
+}
+
 @media (min-resolution: 192dpi) {
   .hero-section {
     background-image: url(/img/mobile/Hero-mobile@2x.png);

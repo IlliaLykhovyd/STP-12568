@@ -1,13 +1,30 @@
+body {
+  padding: 0;
+}
 .back-icon_wrapper {
   display: flex;
   gap: 8px;
   align-items: center;
-  margin-bottom: 8px;
+  font-weight: 400;
+  font-size: 24px;
+  color: #000;
+  margin-bottom: 12px;
+  transition: color 250ms ease;
 }
 
 .back-icon {
   width: 16px;
   height: 32px;
+  fill: currentColor;
+  transition: fill 250ms ease;
+}
+
+.back-icon_wrapper:hover,
+.back-icon_wrapper:focus {
+  color: #288ae2;
+}
+.back-icon_wrapper:focus-visible {
+  outline: none;
 }
 
 .back-icon_text {
@@ -16,10 +33,12 @@
   font-size: 24px;
   color: #000;
 }
+.privacy-policy-section {
+  background-color: #eaf4fa;
+}
 .privacy-policy-container {
   padding: 38px 16px 12px;
   text-align: left;
-  background-color: #eaf4fa;
 }
 .privacy-policy-main-title {
   font-weight: 600;
@@ -85,5 +104,8 @@
   .privacy-policy-list {
     font-size: 20px;
     margin-bottom: 16px;
+  }
+  .back-icon_wrapper {
+    margin-bottom: 24px;
   }
 }
