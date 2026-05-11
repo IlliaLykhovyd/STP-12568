@@ -1,14 +1,17 @@
+#gallery{
+background: #eaf4fa;
+}
+
 .galery-wrapper{
 padding: 38px 0;
 display: flex;
 flex-direction: column;
 gap: 38px;
-background: #eaf4fa;
 overflow: hidden;
 
 }
 
-@media screen and (max-width: 426px) {
+@media screen and (min-width: 1440px) {
 .galery-wrapper{
 gap: 24px;
 }
@@ -23,7 +26,7 @@ color: #000;
 text-align: center;
 }
 
-@media screen and (max-width: 426px) {
+@media screen and (min-width: 1440px) {
     .galery-title{
 font-size: 24px;
 }
