@@ -1,5 +1,4 @@
 .terms-wraper{
-    padding: 72px 72px 0px;
     background: #eaf4fa;
     display: flex;
     flex-direction: column;
@@ -18,11 +17,19 @@
     height: 32px;
 }
 
+.terms-icon:hover{
+    fill: #288AE2;
+}
+
 .terms-icon_text{
     font-family: var(--second-family);
 font-weight: 400;
 font-size: 24px;
 color: #000;
+}
+
+.terms-icon_text:hover{
+    color: #288AE2;
 }
 
 .terms-title{
