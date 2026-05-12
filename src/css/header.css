@@ -8,12 +8,12 @@ div[id] {
 }
 
 .no-scroll {
-  overflow: hidden !important;
+  overflow: clip !important;
   touch-action: none;
 }
 
 .header {
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
   width: 100%;
@@ -99,7 +99,7 @@ div[id] {
 }
 
 .mobile-menu-overlay {
-  position: absolute;
+  position: fixed;
   top: 0;
   right: max(0px, calc(50% - 187.5px));
   width: 182px;
