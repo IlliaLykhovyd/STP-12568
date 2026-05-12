@@ -30,13 +30,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   background-color: #fff;
   padding: 24px 30.5px;
   border: 1px solid #4794df;
   border-radius: 4px;
   width: 340px;
   box-sizing: border-box;
+  height: 457px;
 }
 .characters-item-background {
   width: 250px;
@@ -45,11 +46,16 @@
   margin-bottom: 16px;
 }
 .characters-item-subtitle {
-  font-weight: 500;
+  font-weight: 700;
   font-size: 20px;
   text-align: center;
   color: #000;
   margin-bottom: 21.4px;
+}
+.characters-item-img {
+  width: 250px;
+  height: 226px;
+  margin-bottom: 16px;
 }
 .characters-item-text {
   font-weight: 400;
@@ -75,6 +81,7 @@
   }
   .characters-item {
     width: 305px;
+    padding: 24px 13px 44px 13px;
   }
   .characters-item-subtitle {
     font-size: 24px;
