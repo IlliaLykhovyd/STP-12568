@@ -21,8 +21,15 @@
     </button>
   </div>
   <div class="mobile-menu-overlay" id="mobileMenu">
-    <button type="button" class="close-btn" id="closeMenuBtn">
-      <img src="/img/mobile-close-btn.svg" alt="Close menu" />
+    <button
+      type="button"
+      class="close-btn"
+      id="closeMenuBtn"
+      aria-label="Close menu"
+    >
+      <svg class="icon-close">
+        <use href="/img/sprite.svg#icon-mobile-close-btn"></use>
+      </svg>
     </button>
     <nav class="mobile-menu-links">
       <a href="#home">Home</a>
