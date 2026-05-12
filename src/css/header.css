@@ -136,10 +136,7 @@ div[id] {
   top: 16px;
   right: 16px;
 }
-.close-btn .icon-close {
-  width: 20px;
-  height: 20px;
-}
+
 .mobile-menu-links {
   display: flex;
   flex-direction: column;
