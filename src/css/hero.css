@@ -1,20 +1,33 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 html,
 body {
   overflow-x: clip;
+  margin: 0;
+  padding: 0;
+  width: 100%;
 }
 .hero-section {
   background-image: url(/img/mobile/Hero-mobile.png);
-  width: 375px;
-  margin: 0 auto;
-  background-repeat: no-repeat;
-  background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  width: calc(100% + 7px) !important;
+  margin-left: -7px !important;
+  padding: 0;
 }
 .hero-container {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
+  max-width: 375px;
+  margin: 0 auto;
   padding: 521px 10px 10px 9px;
+  box-sizing: border-box;
 }
 .hero-title {
   font-weight: 500;
@@ -88,19 +101,25 @@ body {
 .hero-download-btn:focus .download-text-big {
   color: #000;
 }
-
 @media (min-resolution: 192dpi) {
   .hero-section {
     background-image: url(/img/mobile/Hero-mobile@2x.png);
   }
 }
+@media screen and (min-width: 768px) {
+  .hero-section {
+    background-image: url('/img/desktop/Hero-tablet.png');
+  }
+}
 @media screen and (min-width: 1440px) {
   .hero-section {
     background-image: url(/img/desktop/Hero-desktop.png);
-    width: 1440px;
+    background-size: cover;
+    width: 100%;
   }
   .hero-container {
     padding: 494px 130px 28px 130px;
+    max-width: 1440px;
   }
   .hero-br {
     display: none;

@@ -47,7 +47,7 @@ body {
   margin-bottom: 12px;
 }
 .privacy-policy-title {
-  font-weight: 500;
+  font-weight: 600;
   font-size: 20px;
   color: #000;
   margin-bottom: 4px;
@@ -65,7 +65,7 @@ body {
   cursor: pointer;
 }
 .privacy-policy-subtitle {
-  font-weight: 500;
+  font-weight: 600;
   font-size: 20px;
   color: #000;
   margin-bottom: 4px;
