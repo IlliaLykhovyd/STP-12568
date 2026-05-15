@@ -115,7 +115,15 @@ div[id] {
     opacity 0.3s ease,
     transform 0.3s ease;
 }
-
+.mobile-menu-overlay::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 100%;
+  width: 100vw;
+  height: 100%;
+  background-color: #eaf4fa;
+}
 .mobile-menu-overlay.active {
   opacity: 1;
   visibility: visible;

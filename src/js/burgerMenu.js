@@ -8,12 +8,14 @@ document.addEventListener('DOMContentLoaded', () => {
     mobileMenu.classList.add('active');
     document.body.classList.add('no-scroll');
     document.documentElement.classList.add('no-scroll');
+    openMenuBtn.classList.add('hidden');
   };
 
   const closeMenu = () => {
     mobileMenu.classList.remove('active');
     document.body.classList.remove('no-scroll');
     document.documentElement.classList.remove('no-scroll');
+    openMenuBtn.classList.remove('hidden');
   };
 
   openMenuBtn.addEventListener('click', openMenu);
